@@ -20,7 +20,7 @@ export const styles = {
 
 export const layouts = {
   fullCol:
-    "h-screen w-screen flex flex flex-col bg-black justify-center items-center relative",
+    "h-screen w-screen flex flex-col bg-black justify-center items-center relative",
   smallCol:
     "h-[10vh] w-screen flex flex flex-col bg-black justify-center items-center relative",
   fullReg: "h-screen w-screen flex flex-row bg-black",
@@ -28,7 +28,7 @@ export const layouts = {
 
 export const components = {
   cards:
-    "p-[1em] opacity-0 absolute left-0 rounded-xl text-white shadow-2xl font-serif bg-gradient-to-r xxs:w-[70%] xxs:top-[20%]",
+    "p-[1em] opacity-0 absolute left-0 rounded-xl text-white shadow-2xl font-serif bg-gradient-to-r xxs:w-[70%] top-[0%] xxs:top-[20%]",
   videos:
     "p-[1em] mt-[5em] text-white shadow-2xl font-serif bg-gradient-to-r w-[80%] rounded-lg xxs:w-[50vw]",
   nav: "fixed right-[-1000px] t-0 h-[80px] w-[100vw] shadow-xl",

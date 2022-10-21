@@ -18,7 +18,7 @@ module.exports = {
       quarter: '50',
     },
     screens: {
-    	xxs: "350px", 
+    	xxs: {"min": "350px", "max": "900px"}, 
       xs: "480px",
       ss: "620px",
       sm: "768px",

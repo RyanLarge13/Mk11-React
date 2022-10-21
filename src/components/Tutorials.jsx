@@ -23,7 +23,7 @@ const Tutorials = () => {
             initial={{ scale: 0 }}
             whileInView={{ scale: 1 }}
           >
-            <h2 key={video.id} className={`${styles.heading2}`}>
+            <h2 key={video.title} className={`${styles.heading2}`}>
               {video.title}
             </h2>
             <p key={video.id} className={`${styles.paragraph1}`}>
