@@ -9,7 +9,7 @@ const WhatIsNew = () => {
         <img
           src={kollector}
           alt="kollector"
-          className="z-0 absolute w-[90vw] h-[100vh] xxs:h-[45vh] xxs:top-[10%]"
+          className="z-0 absolute w-[90vw] h-[100vh] xxs:h-[30vh] xxs:top-[10%]"
         />
         <h2
           className={`${styles.heading2} ${styles.strongRight} font-serif z-10 absolute left-10 bottom-[30%]`}

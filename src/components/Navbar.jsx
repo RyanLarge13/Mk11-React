@@ -27,11 +27,11 @@ const Navbar = () => {
             alt="logo"
             className="h-[60px] w-[60px] rounded-full scale-0 ml-5 mt-2"
           />
-          <div className="flex cursor-pointer absolute -right-[0px] top-[0px] xxs:flex-col xxs:top-[25%] xxs:-right-[25%] xxs:text-center">
+          <div className="flex cursor-pointer absolute -right-[0px] top-[0px] xxs:flex-col xxs:text-center xxs:top-[15%]">
             {navLinks.map((link) => (
               <motion.li
                 key={link.id}
-                className={`${styles.paragraph1} ${styles.smallRight} list-none px-[1.25em] font-semibold hover:text-orange-400 xxs:text-3xl xxs:py-1`}
+                className={`${styles.smallRight} font-serif list-none font-semibold hover:text-orange-400 xxs:py-7 xxs:text-1xl`}
                 animate={{ x: -150 }}
                 whileHover={{ scale: 1.2 }}
               >

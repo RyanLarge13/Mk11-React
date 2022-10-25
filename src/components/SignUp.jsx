@@ -9,10 +9,10 @@ const SignUp = () => {
         <img
           src={SubZero}
           alt="subzero"
-          className="absolute -left-10 h-[100vh] w-[100vw] z-0 rounded-lg xxs:h-[40vh] xxs:top-0"
+          className="absolute -left-10 h-[100vh] w-[100vw] z-0 rounded-lg xxs:h-[35vh] xxs:w-[100vw] xxs:top-0"
         />
         <form
-          className={`flex flex-col absolute right-[10%] rounded-lg w-fit p-10 bg-gradient-to-r xxs:w-[50vw] ${styles.slateRight}`}
+          className={`flex flex-col absolute right-[10%] rounded-lg w-fit p-10 bg-gradient-to-r xxs:w-[75vw] xxs:bottom-[20vh] ${styles.slateRight}`}
         >
           <label htmlFor="name" className={`${styles.label}`}>
             Name

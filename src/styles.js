@@ -31,5 +31,5 @@ export const components = {
     "p-[1em] opacity-0 absolute left-0 rounded-xl text-white shadow-2xl font-serif bg-gradient-to-r xxs:w-[70%] top-[0%] xxs:top-[20%]",
   videos:
     "p-[1em] mt-[5em] text-white shadow-2xl font-serif bg-gradient-to-r w-[80%] rounded-lg xxs:w-[50vw]",
-  nav: "fixed right-[-1000px] t-0 h-[80px] w-[100vw] shadow-xl",
+  nav: "fixed right-[-1000px] t-0 h-[80px] w-[100vw] shadow-2xl",
 };

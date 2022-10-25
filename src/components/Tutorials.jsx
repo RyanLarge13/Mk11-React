@@ -10,7 +10,7 @@ const Tutorials = () => {
       <img
         src={mkDragon}
         alt="background"
-        className={`w-[25vw] h-[100vh] absolute left-0 rounded-xl xxs:w-[75vw]`}
+        className={`w-[25vw] h-[100vh] absolute left-0 rounded-xl xxs:w-[100vw]`}
       />
       <div
         className={`py-[5em] px-[5em] overflow-auto absolute right-0 flex flex-col justify-start max-w-[75vw] h-[100vh] xxs:overflow-x-hidden xxs:translate-x-[-10%]`}

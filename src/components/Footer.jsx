@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <>
       <section
-        className={`${layouts.smallCol} xxs:text-center xxs:absolute xxs:bottom-0`}
+        className={`${layouts.smallCol} xxs:hidden`}
       >
         <p className={`${styles.paragraph1}`}>
           MK11 All Rights Reserved {date}
